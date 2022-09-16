@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/icono.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="Imagenes/icono.jpg">
+    <link rel="stylesheet" href="./CSS/template.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css" rel="stylesheet">
+    <title>Evento</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" ><img src="Imagenes/icono.jpg"></a>
+              <form class="d-flex" role="search">
+                <button  id="boton_eventos" class="btn btn-outline-success">Eventos</button>
+                <button id= "boton_sobre_nosotros" class="btn btn-outline-success">Sobre Nosotros</button>
+              </form>
+            </div>
+          </nav>
+       </header>
+        
+    <div id="div_compra">
+        <img class="card-img-top" src="imagenes/evento nitro jam.jpg" alt="Ferxxo nitro jam">
+        <table class="tabla_compra">
+            <tr>
+                <th>Lugar</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>Palco</td>
+                <td>$50.000</td>
+                <td>
+                    <p>
+                    <select name="" id="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Oriental</td>
+                <td>$50.000</td>
+                <td>
+                    <p>
+                    <select name="" id="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td>$50.000</td>
+                <td>
+                    <p>
+                    <select name="" id="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <button id="calcular">Compra</button>
+        <p>Total: <span id="total">0</spanid></span></p>
+        <p>Iva: <span id="iva">0</span></p>
+        <p>Neto: <span id="neto">0</span></p>
+    </div>
+    <div id="div_eventos">
+        <div class="eventoferxxonitrojam">
+            <div class="imagenferxxo">
+                <img class="card-img" src="imagenes/evento nitro jam.jpg" alt="Ferxxo nitro jam">
+            </div>  
+            <h1>FERXXO NITRO JAM</h1>
+        </div>
+
+        <div class="eventoyosoymusicafest">
+            <div class="imagenmusicafest">
+                <img class="card-img" src="Imagenes/yo soy musica fest.jpg" alt="Yo soy musica fest">
+            </div>
+            <h1>YO SOY MÚSICA FEST</h1>
+        </div>
+        
+        <div class="eventoBADBUNNYWORLDSHOTTESTTOUR">
+            <div class="imagenbadbunny">
+                <img class="card-img" src="Imagenes/world hottest tour.jpg" alt="BAD BUNNY - WORLDS HOTTEST TOUR">
+            </div> 
+            <h1>BAD BUNNY - WORLDS HOTTEST TOUR</h1>
+        </div>
+    </div>
+    </div>
+    <script src="./JS/script.js"></script>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2022</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body {
+   background-color: white;
+}
+  
+.footer-basic
+{
+    margin-top: 100px;
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+}
+    
+.footer-basic ul
+{
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+    
+.footer-basic li
+{
+    padding:0 10px;
+}
+    
+.footer-basic ul a
+{
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+    
+.footer-basic ul a:hover
+{
+    opacity:1;
+}
+    
+.footer-basic .social
+{
+    text-align:center;
+    padding-bottom:25px;
+}
+    
+.footer-basic .social > a
+{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+    
+.footer-basic .social > a:hover
+{
+    opacity:0.9;
+}
+    
+.footer-basic .copyright
+{
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+   
+  
+.banner
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+}
+  
+  
+.div_eventos
+{
+    width: 100%;
+    height: 455px;
+    background-color:rgb(255, 255, 255);
+    float: left;
+}
+  
+  
+.eventoferxxonitrojam
+{  
+    width: 350px;
+    height: 330px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    float: right;
+}
+  
+.eventoyosoymusicafest
+{
+    width: 350px;
+    height: 330px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    float: right;
+}
+  .eventoBADBUNNYWORLDSHOTTESTTOUR
+{ 
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    float: right;
+}
+  
+  .evento_ferxxonitrojam
+{
+    background-color:cornflowerblue;
+    float: left;
+    width: 350px;
+    height: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+  
+.evento_yosoymusicafest
+{
+    background-color:cornflowerblue;
+    float: left;
+    width: 350px;
+    height: 530px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    margin-top: 1px;
+    margin-left: 40px;
+}
+  
+.evento_BADBUNNYWORLDSHOTTESTTOUR
+{
+    background-color:cornflowerblue;
+   float: right;
+   width: 350px;
+   height: 500px;
+   padding: 10px;
+   border: 1px solid black;
+   margin: 20px;
+   margin-top: 1px;
+   margin-right: 20px;
+}
+
+.card-img
+{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+
+.card-img-top
+{
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.card-title
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-text
+{
+    text-align: justify;
+}
+  
+#div_compra
+{
+    width: 500px;
+    height: 300px;
+    background-color: beige;
+    float: initial;
+}
+  
+#boton_eventos
+{
+    text-decoration: solid;
+    text-decoration-color: black;
+    background-color: yellow;
+    border-radius: 3PX;
+    float: right;
+    padding: 1%;
+}
+
+#boton_sobre_nosotros
+{
+    text-decoration: solid;
+    text-decoration-color: black;
+    background-color: yellow;
+    border-radius: 3PX;
+    float: right;
+    padding: 1%;
+}
+
+#boton_evento1, #boton_evento2, #boton_evento3
+{
+    text-decoration: solid;
+    text-decoration-color: black;
+    background-color: yellow;
+    border-radius: 3PX;
+    float:initial;
+    padding: 2%;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#evento_BadBunny li
+{
+    text-align: left;
+}
+
+#evento_musicaFest li
+{
+    text-align: left;
+}
+
+#evento_ferxxo li
+{
+    text-align: left;
+}
